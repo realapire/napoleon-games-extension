@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 800px;
+    padding: 20px;
+}
+
+.accountInformation, .betBuilder {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.accountInformation label, .betBuilder label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

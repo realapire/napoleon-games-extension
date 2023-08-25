@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoleon Sandbox</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Napoleon Sandbox</h1>
+    <div class="accountInformation">
+        <label for="txtUsername">
+            <span>Username</span>
+            <input type="text" id="txtUsername">
+            <button type="button" id="btnUsername">Set</button>
+        </label>
+        <label for="txtBalance">
+            <span>Balance</span>
+            <input type="text" id="txtBalance">
+            <button type="button" id="btnBalance">Set</button>
+        </label>
+    </div>
+    <div class="betBuilder">
+        <h3>Bet Builder</h3>
+        <label for="txtBetTitle">
+            <span>Bet Title</span>
+            <input type="text" id="txtBetTitle">
+        </label>
+        <label for="txtBetTeams">
+            <span>Teams (eg.: Team1 - Team2)</span>
+            <input type="text" id="txtBetTeams">
+        </label>
+        <label for="txtBetOdds">
+            <span>Bet Odds</span>
+            <input type="text" id="txtBetOdds">
+        </label>
+        <label for="txtBetTime">
+            <span>Bet Time (format: hh:MM:ss)</span>
+            <input type="text" id="txtBetTime">
+        </label>
+        <label for="txtBetStake">
+            <span>Bet Stake</span>
+            <input type="text" id="txtBetStake">
+        </label>
+        <label for="txtBetPath">
+            <span>Bet Path</span>
+            <input type="text" id="txtBathPath">
+        </label>
+        <label for="txtBetOutcome">
+            <span>Bet Outcome</span>
+            <input type="text" id="txtBetOutcome">
+        </label>
+        <label for="chkBoxLoss">
+            <span>Loss</span>
+            <input type="checkbox" id="chkBoxLoss">
+        </label>
+        <button type="button" id="btnMakeBet">Make Bet</button>
+    </div>
+    <button type="button" id="btnShowBets">See All Bets</button>
+    <p id="debug"></p>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

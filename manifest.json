@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Napoleon Sandbox",
+    "version": "0.0.1",
+    "description": "Napoleon Sandbox",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.napoleonsports.be/*"
+            ],
+            "js": ["background.js"]
+        }
+    ],
+    "action": {
+        "default_title": "Napoleon Sandbox",
+        "default_popup": "dashboard.html"
+    },
+    "permissions": ["storage"]
+}
